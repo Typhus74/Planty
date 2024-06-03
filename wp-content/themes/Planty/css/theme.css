@@ -10,10 +10,10 @@
 
 /* HEADER */
 
-.header
+.site-header-inner
 {
-    display: flex;
-    background-color: #ffffff;
+    position: relative;
+    height: 100%;
 }
 
 #logo
@@ -23,30 +23,6 @@
     display: flex;
 }
 
-#logo .custom-logo
-{
-    height: 40px;
-    width: 202px;
-    object-fit: cover;
-}
-
-nav
-{
-    margin-right: 0;
-}
-
-nav a 
-{
-    outline: none;
-    text-decoration: none;
-    color: black;
-}
-
-nav ul
-{
-    display: flex;
-    list-style-type: none;
-}
 
 .menu-item a
 {
@@ -59,16 +35,7 @@ nav ul
     justify-content: center;
 }
 
-/* menu admin */
-li.menu-item a:hover 
-{
-    font-weight: 700;
-    font-size: 13px;
-}
-
-
 /* HOME */
-
 
 .wpcf7-submit:hover
 {
@@ -211,7 +178,6 @@ input
 
 }
 
-
 /* COMMANDER */
 
 .h1-order
@@ -245,62 +211,9 @@ input
     background-color: #3B8E46;
 }
 
-.fruit-image-order
+.wpcf7-form-control
 {
-    width: 193px;
-    height: 129px;
-}
 
-.fruit-column-order
-{
-    flex-basis: 25% !important;
-}
-
-.legend-order
-{
-    text-transform: uppercase;
-    font-weight: 800 !important;
-    font-size: 20px !important;
-    line-height: 24px;
-}
-
-.fruits-container-order
-{
-    width: 57% !important;
-}
-
-.fruits
-{
-    background-color: #3B8E46;
-}
-
-.fraise-legend-order
-{
-    margin-left: -36px !important;
-    margin-right: -36px !important;
-}
-
-.pamplemousse-legend-order
-{
-    margin-left: -50px !important;
-    margin-right: -50px !important;
-}
-
-.framboise-legend-order
-{
-    margin-left: -25px !important;
-    margin-right: -25px !important;
-}
-
-.citron-legend-order
-{
-    margin-left: -41px !important;
-    margin-right: -41px !important;
-}
-
-.fruits-separator
-{
-    background-color: #3B8E46;
 }
 
 .form-title
@@ -337,26 +250,6 @@ input
 .h2-form-order
 {
     background-color: #3B8E46;
-}
-
-.separator-rotation
-{
-    transform: rotate(90deg); 
-    position: absolute;
-    left: 530px;
-    top : 900px;
-    border: 0.5px solid #FFFFFF !important;
-    width: 30% !important;
-}
-
-.info
-{
-    margin-left: -20px !important;
-}
-
-.delivery
-{
-    margin-left: 6px !important;
 }
 
 .button-row
@@ -426,18 +319,10 @@ background:#DC9F96;
 color:#FFFFFF;
 font-weight: 700;
 margin-top: 0px !important;
-margin-right: -5%;
-margin-left: -18%;
+margin-right: -5% !important;
+margin-left: -18% !important;
 justify-content: center;
 z-index: 1 !important;
-}
-
-.plus {
-    margin-bottom: -4px !important
-}
-
-.minus {
-    margin-top: -4px !important
 }
 
 .wpcf7-response-output
@@ -458,9 +343,6 @@ z-index: 1 !important;
     align-items: center;
 }
 
-.effetMonFooter:hover {
-    color:black;
-}
 
 @media all and (max-width: 923px)
 {

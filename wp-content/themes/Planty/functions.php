@@ -36,4 +36,3 @@ function planty_admin_nav($items) {
 }
 add_filter('wp_nav_menu_items', 'planty_admin_nav');
 
-//flex_oder//
