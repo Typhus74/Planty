@@ -35,7 +35,9 @@
     justify-content: center;
 }
 
+
 /* HOME */
+
 
 .wpcf7-submit:hover
 {
@@ -211,9 +213,9 @@ input
     background-color: #3B8E46;
 }
 
-.wpcf7-form-control
+.wpcf7-form
 {
-
+    
 }
 
 .form-title
@@ -250,6 +252,17 @@ input
 .h2-form-order
 {
     background-color: #3B8E46;
+}
+
+
+.info
+{
+    margin-left: -20px !important;
+}
+
+.delivery
+{
+    margin-left: 6px !important;
 }
 
 .button-row
@@ -319,8 +332,8 @@ background:#DC9F96;
 color:#FFFFFF;
 font-weight: 700;
 margin-top: 0px !important;
-margin-right: -5% !important;
-margin-left: -18% !important;
+margin-right: -5%;
+margin-left: -18%;
 justify-content: center;
 z-index: 1 !important;
 }
